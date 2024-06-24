@@ -1,0 +1,40 @@
+.orderItemRow {
+    width: 600px;
+}
+
+.item {
+    width: 500px;
+}
+
+.itemInfo {
+    display: flex;
+    align-items: center;
+}
+
+.itemImage {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.itemTitle {
+    font-weight: bold;
+    text-align: left;
+    margin-right: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.itemQuantity {
+    padding-right: 20px;
+    width: 50px;
+}
+
+.itemPrice {
+    width: 120px;
+}
+
+.itemTitle:visited {
+    color: black;
+}
