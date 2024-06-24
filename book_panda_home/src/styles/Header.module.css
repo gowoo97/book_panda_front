@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #006769;
+    --text-color: #fff;
+    --background-color: #004d40;
+  }
+  
+  .top {
+    background-color: var(--primary-color);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .topContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 1030px;
+    min-width: 1030px;
+  }
+  
+  .leftCategoryContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rightCategoryContainer {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .rightCategoryContainer div {
+    font-size: 13px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+  }
+  
+  .leftCategoryContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    color: var(--text-color);
+  }
+  
+  .link {
+    width: 65px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 4px;
+  }
+
+  .link:hover {
+    color: #008000;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .home:hover {
+    color: #008000;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* #logoutLink {
+    color: var(--text-color) !important;
+  }
+
+  #logoutLink:hover {
+    color: var(--text-color) !important;
+  } */
+
+  
+  

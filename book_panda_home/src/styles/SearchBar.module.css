@@ -1,0 +1,114 @@
+:root {
+    --primary-color: #006769;
+    --hover-color: #005457;
+    --text-color: #fff;
+    --background-color: #004d40;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1030px;
+    margin: 40px auto;
+    min-width: 1030px;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  #logoLink {
+    color: black;
+    text-decoration: none;
+  }
+
+  .logoimage img {
+    width: 60px;
+    height: 60px;
+   }
+  
+  .searchBar {
+    border: 3px solid var(--primary-color);
+    border-radius: 12px;
+    display: flex;
+    width: 535px;
+    height: 41px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  
+  .searchBar > select {
+    width: 15%;
+    border: none;
+    background-color: white;
+  }
+  
+  .searchBar > input {
+    width: 75%;
+    color: black;
+    border: none;
+  }
+  
+  .searchBar > button {
+    width: 10%;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  .autocompleteVisible {
+    position: absolute;
+    top: 52px; /* 검색창 아래에 나타나도록 조정 */
+    z-index: 5;
+    background-color: white;
+    width: 535px;
+    margin-top: 5px;
+    margin-left:173px;
+    display: block;
+    height: auto;
+    border: 1px solid var(--primary-color);
+    visibility: visible;
+  }
+  
+  .autocompleteHidden {
+    position: absolute;
+    top: 52px; /* 검색창 아래에 나타나도록 조정 */
+    z-index: 5;
+    background-color: white;
+    width: 535px;
+    margin-top: 5px;
+    margin-left: 173px;
+    display: block;
+    height: auto;
+    border: 1px solid var(--primary-color);
+    visibility: hidden;
+  }
+
+  .autocompleteItem {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .autocompleteItem:hover {
+    background-color: #E0E9CB;
+    color: var(--text-color);
+  }
+
+  .itemContainer > button {
+    width: 100%;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .itemContainer > button:hover {
+    background-color: var(--hover-color);
+  }
